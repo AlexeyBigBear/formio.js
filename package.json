@@ -1,6 +1,6 @@
 {
-  "name": "formiojs-bb",
-  "version": "1.0.0",
+  "name": "formiojs-emilyerm",
+  "version": "1.0.1",
   "description": "JavaScript powered Forms with JSON Form Builder",
   "main": "index.js",
   "types": "index.d.ts",
