@@ -1,5 +1,5 @@
 {
-  "name": "formiojs-emilyerm",
+  "name": "formiojs-emilyemr",
   "version": "1.0.1",
   "description": "JavaScript powered Forms with JSON Form Builder",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "watch": "babel -w ./src/ --out-dir ./lib/",
     "rebuild": "rm -rf node_modules;npm install;gulp build",
     "tag": "VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]');git add -A; git commit -m \"Build $Version\";git push origin master;git tag v$VERSION;git push origin --tags;",
-    "dopublish": "npm test;gulp build;npm run tag;npm publish lib;",
+    "dopublish": "npm test;gulp build;npm publish lib;",
     "lint": "gulp eslint",
     "serve": "jekyll serve --config _config.yml,_config.dev.yml",
     "test": "npm run transpile && npm run templates && npm run test:unit",
