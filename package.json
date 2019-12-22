@@ -1,6 +1,6 @@
 {
   "name": "formiojs-emilyemr",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "JavaScript powered Forms with JSON Form Builder",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,7 +19,7 @@
     "lint"
   ],
   "scripts": {
-    "build": "esdoc;gulp build",
+    "build": "gulp build",
     "transpile": "babel ./src/ --out-dir ./lib/",
     "templates": "gulp templates",
     "watch": "babel -w ./src/ --out-dir ./lib/",
